@@ -2,9 +2,6 @@ import path from 'path';
 
 import { descriptionDataPreparation, tokenizeAndRemoveStopWords, sentimentAnalysis } from './../sentiment-analysis';
 import { logger } from '../logger';
-// import { REG_EXP_PATTERNS } from './../constants';
-// import { ProductsWithScore } from './../types';
-// import { descriptionWords } from './__mocks__/description-words.mock';
 
 describe('sentiment analysis functions', () => {
   afterEach(() => {
